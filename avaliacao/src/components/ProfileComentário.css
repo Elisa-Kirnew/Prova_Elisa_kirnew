@@ -1,0 +1,28 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d0aeec;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: rgb(218, 87, 87);
+  }
+  
+
+  h2 {
+    color: rgb(38, 69, 99);
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  img:hover {
+    transform: scale(1.05);
+  }
